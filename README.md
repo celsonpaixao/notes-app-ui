@@ -6,9 +6,9 @@ This is the UI of a notes app with state management provider
 
 ## Test Methods
 
-- List a Nostes
+- List a Notes
 
-- Add Noste
+- Add Note
 - Delet Note
 
 
