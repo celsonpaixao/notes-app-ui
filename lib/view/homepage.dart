@@ -100,8 +100,8 @@ class _HomePageState extends State<HomePage> {
             ),
             _controller.nota.isEmpty
                 ? Padding(
-                  padding: const EdgeInsets.symmetric(vertical:100),
-                  child: Container(
+                    padding: const EdgeInsets.symmetric(vertical: 100),
+                    child: Container(
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -119,7 +119,7 @@ class _HomePageState extends State<HomePage> {
                         ],
                       ),
                     ),
-                )
+                  )
                 : Expanded(
                     child: GridView.builder(
                       itemCount: _controller.nota.length,
